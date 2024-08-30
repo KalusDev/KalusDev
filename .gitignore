@@ -1,0 +1,39 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+
+# Ignore node_modules (in case you use Node.js tools for development)
+node_modules/
+
+# Ignore log files and temp files
+*.log
+*.tmp
+
+# Ignore build directory (in case you generate minified files)
+dist/
+build/
+
+# Ignore package manager files (if using npm, yarn, etc.)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore SASS cache (if using SASS)
+.sass-cache/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore cache directories
+.cache/
+
+# Ignore environment variable files
+.env
+
+# Ignore output from some popular CSS frameworks and preprocessors
+*.map
+
+# Ignore hidden files from any editor (like Vim or Emacs)
+.*.swp
